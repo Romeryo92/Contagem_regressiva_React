@@ -14,15 +14,15 @@ import { CountdownProvider } from './context/CountdownContext.jsx'
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/Contagem_regressiva_React/",
         element: <App />,
         children: [
             {
-                path: "/",
+                path: "/Contagem_regressiva_React/",
                 element: <Home />
             },
             {
-                path: "/countdown",
+                path: "/Contagem_regressiva_React/countdown",
                 element: <Countdown />
             }
         ]
